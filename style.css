@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255, 208, 216);
+    margin: 0%;
+}
+
+#title {
+    font-family: Poppins;
+    text-align: center;
+}
+
+li {
+    list-style-type: none
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: Poppins;
+    max-width: 300px;
+    min-width: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul#pokedex {
+    padding: 0%;
+}
+
+p.name {
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 0%;
+}
+
+p.type {
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+p.weight {
+    margin-top: 0%;
+}
+
+.img {
+    width: 200px;
+}
+
+#pokedex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
